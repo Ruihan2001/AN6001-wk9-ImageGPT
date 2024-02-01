@@ -24,4 +24,4 @@ def index():
     else:
         return(render_template("index.html",r="waiting for description....."))
 if __name__ == "__main__":
-    app.run(port=4070)
+    app.run()
